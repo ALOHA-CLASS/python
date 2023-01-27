@@ -17,6 +17,7 @@ print(tokens['access_token'])
 
 
 # 텍스트 메시지 url
+# 카카오톡 나에게 보내기 URL
 url = 'https://kapi.kakao.com/v2/api/talk/memo/default/send'
 
 # header 정보
@@ -27,9 +28,22 @@ headers = {
 
 
 temp = {
-    'object_type' : 'text',
-    'text' : '안녕 카카오~!',
-    'link' : { 'web_url' : 'www.naver.com' }
+    'object_type' : 'feed',     # text, feed
+    # 'text' : '안녕하세요~!',
+    # URL 은 Kakao Developer > 내 애플리케이션 > 앱 설정 > 플랫폼 > Web 에
+    # 등록된 도메인만 사용가능합니다.
+    "content" : {
+        "title" : "피카츄~!",
+        "description" : "라이츄 파이리 꼬부기",
+        "image_url": "https://upload.wikimedia.org/wikipedia/ko/thumb/a/a6/Pok%C3%A9mon_Pikachu_art.png/200px-Pok%C3%A9mon_Pikachu_art.png",
+        "image_width": 640,
+        "image_height": 640,
+        'link' : { 
+            "web_url" : 'https://wwwaloha.oopy.io',          # PC 카톡의 URL
+            "mobile_web_url" : 'https://wwwaloha.oopy.io'    # 모바일 URL
+        }
+        
+    }
 }
 
 data = {
