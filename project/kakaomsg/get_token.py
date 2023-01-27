@@ -27,7 +27,7 @@ data = {
     'grant_type'    : 'authorization_code',
     'client_id'     : '636004344b306ca0cc7283d41ffc4f1b',   # REST API 키
     'redirect_uri'  : 'https://localhost.com',              # 
-    'code'          : 'CaKJ1eiwSch4ROU3a4eInmK3GYar4uHu_Xhaahv8Je6PBRumOvtiM0zBOlcmU-V9p3_xWwoqJZEAAAGF7MHsDQ'   # 인가코드
+    'code'          : 'Zt2oJ5z-UEmOM2DlekxcSdy062xQVhCtgcRdRxofzSQvZMRRSph00nTYxdeD_u6C_ncmxgoqJVIAAAGF8Iuu1w'   # 인가코드
 }
 
 

@@ -3,14 +3,14 @@ import json
 import requests
 import save_token
 
-# 저장된 토큰 정보를 읽어 옴
+# 저장된 토큰 정보를 읽어옴
 tokens = save_token.load_tokens(save_token.KAKAO_TOKEN_FILE)
 
-# json 문자열의  '(작은따옴표)를 "(큰따옴표)로 변환
+# json 문자열의 '(작은따옴표)를 "(큰따옴표)로 변환
 json_str = tokens.replace("'", "\"")
 
-# json 문자열을 딕셔너리 변환
-tokens = json.loads(json_str)
+# json 문자열을 딕셔너리로 변환
+tokens = json.loads(json_str) 
 
 # print(tokens)
 print(tokens['access_token'])
@@ -25,10 +25,9 @@ headers = {
     'Authorization' : 'Bearer ' + tokens['access_token']
 }
 
-
 temp = {
     'object_type' : 'text',
-    'text' : '안녕 카카오~!',
+    'text' : '안녕 동찬?',
     'link' : { 'web_url' : 'www.naver.com' }
 }
 

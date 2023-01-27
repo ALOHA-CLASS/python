@@ -17,7 +17,7 @@ def save_tokens(filename, tokens):
 def load_tokens(filename):
     with open(filename) as fp:
         tokens = json.load(fp)
-        print(tokens)
+        # print(tokens)
         
     return tokens
 
