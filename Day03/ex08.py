@@ -4,8 +4,7 @@
     - 텍스트틀 파일 생성하기
 '''
 
-# 파일 저장 경로
-path = 'C:/KHM/PYTHON/python/Day03/'
+
 
 # 파일 열기 : open(파일명, 모드, 옵션)
 # 모드 
@@ -27,7 +26,8 @@ path = 'C:/KHM/PYTHON/python/Day03/'
 #                  'strict'(에러발생), 'ignore'(무시), 'replace'(마커로 에러확인)
 
 
-
+# 파일 저장 경로
+path = 'C:/KHM/PYTHON/python/Day03/'
 file = open(path + 'hello.txt', 'wt', encoding='UTF-8')
 
 
