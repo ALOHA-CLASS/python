@@ -28,7 +28,7 @@ class Person:
     
 p = Person()
 
-p.name = '김휴먼'
+p.name = '김조은'
 print('p - name : {}'.format( p.name ))
         
         

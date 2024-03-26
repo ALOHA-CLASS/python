@@ -26,10 +26,10 @@ class Student:
     
 # 객체 리스트
 students = [ 
-            Student(101, '김휴먼', '컴퓨터공학과'),
+            Student(101, '김조은', '컴퓨터공학과'),
             Student(102, '이효리', '방송연예과'),
             Student(103, '손석구', '연극영화과'),
-            Student(101, '김휴먼', '컴퓨터공학과'),
+            Student(101, '김조은', '컴퓨터공학과'),
         ]
 
 for student in students:
@@ -49,7 +49,7 @@ print( students[0] != students[3] )
     
 
 
-s1 = Student(101, '김휴먼', '컴퓨터공학과')
-s2 = Student(101, '김휴먼', '컴퓨터공학과')
+s1 = Student(101, '김조은', '컴퓨터공학과')
+s2 = Student(101, '김조은', '컴퓨터공학과')
 
 print( s1 == s2 )

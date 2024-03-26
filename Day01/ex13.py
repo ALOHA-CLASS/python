@@ -12,7 +12,7 @@ print('Python', 'C', 'Java', sep=',')   # , 로 구분
 
 # 한 줄에 출력하기
 print('이름 ', end=': ')
-print('김휴먼')
+print('김조은')
 
 # 파일에 출력하기
 # mode 의 wt 

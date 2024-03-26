@@ -63,7 +63,7 @@ class Person:
 person = Person()
 
 # 객체의 변수 접근
-person.name = '김휴먼'
+person.name = '김조은'
 person.age = 20
 person.tel = '010-1234-1234'
 

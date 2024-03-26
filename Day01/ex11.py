@@ -1,4 +1,4 @@
-name = '김휴먼'
+name = '김조은'
 print('내 이름은 %s 입니다.' % name)
 
 height = 180.24

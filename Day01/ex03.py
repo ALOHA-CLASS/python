@@ -1,7 +1,7 @@
 # 변수 선언
 a = 10
 b = 12.34
-c = '김휴먼'
+c = '김조은'
 
 print( type(a) )
 print( type(b) )

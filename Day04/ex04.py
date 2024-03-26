@@ -48,7 +48,7 @@ class Student:
             print( str(student) )
         
         
-s1 = Student('김휴먼', 20, '010-1111-2222')
+s1 = Student('김조은', 20, '010-1111-2222')
 s2 = Student('이효리', 30, '010-1111-2222')
 s3 = Student('손석구', 40, '010-1111-2222')
         
